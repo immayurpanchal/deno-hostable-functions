@@ -1,3 +1,3 @@
-export function add(a: number, b: number): number {
-	return a + b;
-}
+export const hello = (name) => {
+	return `Hello ${name}! Welcome to the Deno land.`;
+};
